@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://dmre3kjcygoxs"]
+
+[ext_resource type="Texture2D" uid="uid://wpmgxtvyp3yk" path="res://demo_textures/Inside_A4.png" id="1_8hucx"]
+[ext_resource type="Script" path="res://addons/rpgmakerutils/ChipSet.gd" id="1_86af8"]
+
+[resource]
+script = ExtResource("1_86af8")
+square = true
+chipset = ExtResource("1_8hucx")

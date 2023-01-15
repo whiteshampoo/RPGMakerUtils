@@ -8,6 +8,40 @@
 
 config_version=5
 
+_global_script_classes=[{
+"base": "Resource",
+"class": &"RMUChipSet",
+"language": &"GDScript",
+"path": "res://addons/rpgmakerutils/ChipSet.gd"
+}, {
+"base": "Node",
+"class": &"_RMU",
+"language": &"GDScript",
+"path": "res://addons/rpgmakerutils/RMU.gd"
+}, {
+"base": "ImageTexture",
+"class": &"_RMUA",
+"language": &"GDScript",
+"path": "res://addons/rpgmakerutils/RMUA.gd"
+}, {
+"base": "RefCounted",
+"class": &"_RMUC",
+"language": &"GDScript",
+"path": "res://addons/rpgmakerutils/classic/utils.gd"
+}, {
+"base": "TileMap",
+"class": &"_RMUConv",
+"language": &"GDScript",
+"path": "res://addons/rpgmakerutils/MapConverter.gd"
+}]
+_global_script_class_icons={
+"RMUChipSet": "",
+"_RMU": "",
+"_RMUA": "",
+"_RMUC": "",
+"_RMUConv": ""
+}
+
 [application]
 
 config/name="Rpg Maker Utils"
